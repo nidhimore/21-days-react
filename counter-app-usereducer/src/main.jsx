@@ -1,13 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import PasswordToggle from './components/PasswordToggle.jsx'
-import UseRefHook from './components/UseRefHook.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <PasswordToggle/>
-    <UseRefHook/>
   </StrictMode>,
 )
